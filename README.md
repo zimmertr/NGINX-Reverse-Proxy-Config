@@ -10,3 +10,15 @@ Proxy also yields other benefits such as:
 - Better website performance/caching
 - Simple password-based authentication
 ```
+
+NGINX is currently proxying the following services for my domain:
+```
+- Apache
+- Plex Media Server
+- Deluge Web Interface
+- LibreNMS
+- NetData
+- OpenVPN
+```
+
+Currently, the only problems that exist are that NGINX doesn't play nicely proxying UDP traffic for OpenVPN. Hope to have a solution for that eventually.
