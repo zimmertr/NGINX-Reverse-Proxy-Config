@@ -19,6 +19,7 @@ NGINX is currently proxying the following services for my domain:
 - LibreNMS
 - NetData
 - OpenVPN
+- PlexPy
+- Sonarr
+- CouchPotato
 ```
-
-Currently, the only problems that exist are that NGINX doesn't play nicely proxying UDP traffic for OpenVPN. Hope to have a solution for that eventually.
